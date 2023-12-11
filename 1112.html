@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My First JavaScript</h2>
+
+<button type="button" onclick="addImg()">
+Click me to display Date and Time.</button>
+
+<div id="placehere">
+    <!-- <img src="career-goals.jpg" alt=""> -->
+</div>
+
+<script>
+    function addImg() {
+        // var elem = document.createElement('img'); //dinh nghia bien elem la: <img >
+        // elem.src = 'career-goals.jpg'; // <img src="career-goals.jpg">
+        // document.getElementById('placehere').appendChild(elem);
+
+        var para = document.createElement('p'); //dinh nghia bien elem la: <p >
+        para.innerHTML = 'haha';
+        document.getElementById('placehere').appendChild(para);
+    }
+</script>
+</body>
+</html>
